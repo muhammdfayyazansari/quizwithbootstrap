@@ -295,6 +295,7 @@ if(count == lenghtOfQuestions){
 }
 
 console.log(score)
+console.log(file)
 }
 function result(){
   var quizDiv = document.getElementById('quizRunning');
