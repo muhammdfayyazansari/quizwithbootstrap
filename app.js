@@ -38,7 +38,7 @@ function change(){
 
 }
 if((file === 'index.html' || userLocate === file2 ) && localStorage.getItem('flag')!== "false"){
-  console.log(fayyaz)
+  console.log("fayyaz")
 change();
 }
 
