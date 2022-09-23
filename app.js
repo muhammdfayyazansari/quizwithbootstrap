@@ -38,7 +38,7 @@ function change(){
 
 }
 if((file === 'index.html' || userLocate === file2 ) && localStorage.getItem('flag')!== "false"){
-  console.log(file)
+  console.log(fayyaz)
 change();
 }
 
@@ -296,7 +296,6 @@ if(count == lenghtOfQuestions){
 }
 
 console.log(score)
-console.log(file)
 }
 function result(){
   var quizDiv = document.getElementById('quizRunning');
