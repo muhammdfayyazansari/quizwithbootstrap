@@ -36,7 +36,8 @@ function change(){
     window.location.href = './signup.html'
 
 }
-if((file === 'index.html' || file === 'quizwithbootstrap.netlify.app' )&& localStorage.getItem('flag')!== "false"){
+if((file === 'index.html' || file === 'quizwithbootstrap.netlify.app' ) && localStorage.getItem('flag')!== "false"){
+  console.log(file)
 change();
 }
 
