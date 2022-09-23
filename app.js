@@ -2,6 +2,7 @@
 var userLocate = window.location.href;
 var lstd = userLocate.lastIndexOf('/')+1;
 var file = userLocate.slice(lstd);
+var file2 = "https://quizwithbootstrap.netlify.app/";
 var flag;
 function signup(){
     var getEmail = document.getElementById('suEmail');
@@ -36,7 +37,7 @@ function change(){
     window.location.href = './signup.html'
 
 }
-if((file === 'index.html' || file === 'quizwithbootstrap.netlify.app' ) && localStorage.getItem('flag')!== "false"){
+if((file === 'index.html' || userLocate === file2 ) && localStorage.getItem('flag')!== "false"){
   console.log(file)
 change();
 }
